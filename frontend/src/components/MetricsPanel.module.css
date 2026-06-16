@@ -1,0 +1,70 @@
+.pipelineMath {
+  background: var(--card-bg);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border: 1px solid var(--card-border);
+}
+
+.mathBreakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vectorNodeTitle {
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-right-secondary);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 0.5rem;
+}
+
+.mathRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed var(--card-border);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mathTerm {
+  font-family: 'Inter', monospace;
+  color: var(--accent-orange);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.mathStats {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.statPill {
+  background: var(--bg-secondary);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-family: 'Inter', monospace;
+  color: var(--text-right-secondary);
+  border: 1px solid var(--card-border);
+}
+
+.statPill.highlight {
+  background: var(--card-bg);
+  border-color: var(--accent-orange);
+  color: var(--accent-orange);
+}
+
+.mathTotal {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Outfit', sans-serif;
+  text-align: right;
+  color: var(--accent-orange);
+  font-weight: 600;
+}

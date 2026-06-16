@@ -1,0 +1,71 @@
+.pipelineDefinitions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: var(--card-bg);
+  padding: 1.8rem;
+  border-radius: 20px;
+  border: 1px solid var(--card-border);
+}
+
+.pipelineWordContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 1rem;
+}
+
+.pipelineWord {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-right-primary);
+  letter-spacing: -1px;
+}
+
+.pipelinePhonetic {
+  color: var(--accent-orange);
+  font-family: 'Inter', monospace;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.defList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.defItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.defText {
+  color: var(--text-right-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.defExample {
+  color: var(--text-right-secondary);
+  font-style: italic;
+  font-size: 0.9rem;
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--card-border);
+}
+
+.defEmptyState {
+  color: var(--text-right-secondary);
+  font-style: italic;
+  padding: 2rem 0;
+}
+
+.defEmptyState p {
+  margin: 0.5rem 0;
+}
